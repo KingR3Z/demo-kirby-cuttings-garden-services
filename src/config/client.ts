@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "8",
 
   // Services
   services: [
@@ -79,9 +79,14 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Ray Stinchcombe", rating: 5, text: "Callum installed a Durapost fence into my front garden he did it in quick time while keeping it very clean! Great work highly recommend0:040:06 ", date: "7 months ago" },
+    { name: "Paul Reed", rating: 5, text: "Very happy with our new Durapost fence installed by Callum & Marc. Both were friendly, professional & clearly take pride in their work which is great to see. We will definitely be in touch for any future garden works. ", date: "4 months ago" },
+    { name: "Su Proud", rating: 5, text: "Our bespoke durapost fence and gate has been built to a very high standard of workmanship and looks lovely.  It was exactly what we wanted! Thanks Callum very much.  We would recommend your business.   Response from the owner 4 months agoHi Sue,", date: "4 months ago" },
+    { name: "Helen Simms", rating: 5, text: "We’ve used Callum a couple of times now for a driveway and custom built double gates, he’s now fitted custom built secure gate for my father. Very reliable, friendly and always provides a quality finish. Would use again and would highly recommend. ", date: "7 months ago" },
+    { name: "Ken Russell", rating: 5, text: "Callum erected a Durapost fence to replace an old wooden fence which had rotted and was falling over. A dead tree and uneven ground had to be negotiated but proved no problem for Callum who carried out the work in his usual professional …  ", date: "7 months ago" },
+    { name: "Suzanne Fry", rating: 5, text: "We would definitely recommend Callum for all types of garden work. He is very approachable, really pleasant, and takes pride in his work. He keeps you updated and keeps to a good timescale. …  ", date: "8 months ago" },
+    { name: "Jess Goodwin", rating: 5, text: "Thank you for having us! It’s always a pleasure working for you both. Enjoy your new fence 🤝🏻👍🏻  …", date: "11 months ago" },
+    { name: "Karen Williams", rating: 5, text: "Very impressed with the service and professionalism provided by Callum.  The standard of workmanship was exemplary and I would have no hesitation in recommending them. ", date: "5 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
